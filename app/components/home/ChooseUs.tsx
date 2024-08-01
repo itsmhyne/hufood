@@ -73,7 +73,7 @@ export const ChooseUs = () => {
           </h1>
           <div className="relative z-10">
             <h3 className="font-medium">Years of</h3>
-            <h2 className="font-bold">Experienced</h2>
+            <h2 className="font-semibold">Experienced</h2>
           </div>
         </div>
       </div>
