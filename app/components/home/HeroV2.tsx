@@ -17,7 +17,7 @@ const HeroV2 = () => {
         </div>
         <div className="w-full flex flex-wrap py-10">
           <h1 className="text-primary font-greatvibes text-4xl tracking-wider">
-            It's Quick & Amusing!
+            It&apos;s Quick & Amusing!
           </h1>
           <h1 className="text-white font-bold text-5xl my-5">
             <span className="text-primary">Th</span>e art of speed food Quality
