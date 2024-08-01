@@ -33,8 +33,8 @@ const NavbarV2 = () => {
     <div
       className={`${navbarClasses} fixed top-0 z-20 w-full flex justify-between items-center p-10`}
     >
-      <span className="text-primary font-bold font-inter">
-        Hu<span className="text-white font-bold">Food</span>
+      <span className="text-primary text-xl font-bold font-inter">
+        HU<span className="text-white font-bold">Food</span>
       </span>
       <Bars3BottomRightIcon className="w-7 h-7 text-white" />
     </div>

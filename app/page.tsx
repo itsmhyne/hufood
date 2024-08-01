@@ -2,6 +2,7 @@ import NavbarV2 from "./components/globals/NavbarV2";
 import About from "./components/home/About";
 import { Category } from "./components/home/Category";
 import { ChooseUs } from "./components/home/ChooseUs";
+import Client from "./components/home/Client";
 import HeroV2 from "./components/home/HeroV2";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Category />
       <ChooseUs />
+      <Client />
     </div>
   );
 }
