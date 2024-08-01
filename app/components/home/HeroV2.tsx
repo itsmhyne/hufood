@@ -16,7 +16,7 @@ const HeroV2 = () => {
           <hr className="w-28 h-1" />
         </div>
         <div className="w-full flex flex-wrap py-10">
-          <h1 className="text-primary font-greatvibes text-4xl tracking-wider">
+          <h1 className="text-primary font-greatvibes text-xl tracking-wider">
             It&apos;s Quick & Amusing!
           </h1>
           <h1 className="text-white font-bold text-5xl my-5">

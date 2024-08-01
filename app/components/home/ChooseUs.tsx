@@ -9,6 +9,7 @@ import img5 from "../../../public/img/home/wcu5.png";
 import img6 from "../../../public/img/home/wcu6.png";
 import { CiBurger } from "react-icons/ci";
 import { LuCookie } from "react-icons/lu";
+import { TbBurger } from "react-icons/tb";
 
 export const ChooseUs = () => {
   return (
@@ -55,7 +56,7 @@ export const ChooseUs = () => {
         </h3>
         <div className="detail flex py-10 gap-4">
           <div className="bg-primary p-5 rounded-md">
-            <CiBurger className="text-white text-2xl" />
+            <TbBurger className="text-white text-2xl" />
           </div>
           <div className="bg-primary p-5 rounded-md">
             <LuCookie className="text-white text-2xl" />
