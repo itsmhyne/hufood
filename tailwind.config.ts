@@ -14,6 +14,7 @@ const config: Config = {
       fontFamily: {
         miniver: ["Miniver", "cursive"],
         greatvibes: ["Great Vibes", "cursive"],
+        // greatvibes: ["var(--font-great-vibes)", "cursive"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

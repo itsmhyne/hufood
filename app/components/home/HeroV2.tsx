@@ -8,12 +8,12 @@ const HeroV2 = () => {
     <div className="bg-hero-pattern w-screen bg-cover bg-center h-screen flex items-center justify-center relative px-10">
       <div className="absolute inset-0 bg-black opacity-75"></div>
       <div className="relative z-10 flex flex-wrap items-center">
-        <div className="w-full flex items-center gap-3">
-          <hr className="w-12 h-1" />
+        <div className="w-full flex items-center justify-center gap-3">
+          <hr className="w-28 h-1" />
           <RiFacebookFill className="text-white" />
           <RiYoutubeFill className="text-primary" />
           <RiInstagramFill className="text-white" />
-          <hr className="w-12 h-1" />
+          <hr className="w-28 h-1" />
         </div>
         <div className="w-full flex flex-wrap py-10">
           <h1 className="text-primary font-greatvibes text-4xl tracking-wider">
@@ -30,7 +30,7 @@ const HeroV2 = () => {
             See Menu
           </button>
         </div>
-        <Image src={BgItemHero} alt={"hero item"} />
+        <Image src={BgItemHero} alt={"hero item"} className="hidden" />
       </div>
     </div>
   );
