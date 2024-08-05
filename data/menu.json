@@ -1,0 +1,50 @@
+[
+  {
+    "image": "/img/home/ab1.png",
+    "title": "Lectuce Leaf",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "Rp. 12.500,00"
+  },
+  {
+    "image": "/img/home/ab2.png",
+    "title": "Fresh Breakfast",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "Rp. 14.500,00"
+  },
+  {
+    "image": "/img/home/ab3.png",
+    "title": "Mild Butter",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "Rp. 12.500,00"
+  },
+  {
+    "image": "/img/home/cf1.png",
+    "title": "Fresh Bread",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "Rp. 12.500,00"
+  },
+  {
+    "image": "/img/home/cf2.png",
+    "title": "Glow Cheese",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "Rp. 12.500,00"
+  },
+  {
+    "image": "/img/home/cf3.png",
+    "title": "Italian Pizza",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "Rp. 14.500,00"
+  },
+  {
+    "image": "/img/home/cf4.png",
+    "title": "Slice Beaf",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "Rp. 12.500,00"
+  },
+  {
+    "image": "/img/home/wcu1",
+    "title": "Mushroom Pizza",
+    "description": "Lorem ipsum dolor sit amet.",
+    "price": "Rp. 12.500,00"
+  }
+]

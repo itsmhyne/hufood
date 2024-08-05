@@ -43,7 +43,7 @@ export const ChooseUs = () => {
       {/* <Image src={img6} alt="image6" /> */}
       {/* </div> */}
       <div className="w-full lg:w-1/2">
-        <h1 className="font-greatvibes text-primary text-xl">Why Choose us</h1>
+        <h1 className="font-greatvibes text-primary text-2xl">Why Choose us</h1>
         <h1 className="text-white font-bold text-3xl py-5">
           <span className="text-primary">Ex</span>ta ordinary taste And
           Experienced

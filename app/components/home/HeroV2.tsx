@@ -5,18 +5,18 @@ import NavbarV2 from "../globals/NavbarV2";
 
 const HeroV2 = () => {
   return (
-    <div className="bg-hero-pattern w-screen bg-cover bg-center h-screen flex items-center justify-center relative px-10">
+    <div className="bg-hero-pattern w-screen bg-cover bg-center h-screen flex items-center justify-center relative px-10 bg-fixed">
       <div className="absolute inset-0 bg-black opacity-75"></div>
       <div className="relative z-10 flex flex-wrap items-center">
-        <div className="w-full flex items-center justify-center gap-3">
+        <div className="w-full flex items-center justify-center gap-3 md:w-[17%] md:rotate-90">
           <hr className="w-28 h-1" />
           <RiFacebookFill className="text-white" />
           <RiYoutubeFill className="text-primary" />
           <RiInstagramFill className="text-white" />
           <hr className="w-28 h-1" />
         </div>
-        <div className="w-full flex flex-wrap py-10">
-          <h1 className="text-primary font-greatvibes text-4xl tracking-wider">
+        <div className="w-full flex flex-wrap py-10 md:w-1/2">
+          <h1 className="text-primary font-greatvibes text-2xl tracking-wider">
             It&apos;s Quick & Amusing!
           </h1>
           <h1 className="text-white font-bold text-5xl my-5">
@@ -30,7 +30,11 @@ const HeroV2 = () => {
             See Menu
           </button>
         </div>
-        <Image src={BgItemHero} alt={"hero item"} className="hidden" />
+        <Image
+          src={BgItemHero}
+          alt={"hero item"}
+          className="hidden md:block md:w-[33%]"
+        />
       </div>
     </div>
   );
