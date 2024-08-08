@@ -12,7 +12,7 @@ export const Category = () => {
       <h1 className="text-center text-white font-bold text-3xl mt-2">
         <span className="text-primary">Ch</span>oose Food Item
       </h1>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-10 text-center">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mt-10 text-center">
         <Image src={item1} alt={"item1"} />
         <Image src={item2} alt={"item2"} />
         <Image src={item3} alt={"item3"} />

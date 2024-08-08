@@ -22,6 +22,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "hero-pattern": "url('/img/hero.jpg')",
         "home-client": "url('/img/home/bgclient.png')",
+        "home-process": "url('/img/home/process.png')",
       },
     },
   },

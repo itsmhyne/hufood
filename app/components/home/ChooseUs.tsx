@@ -14,7 +14,7 @@ import { TbBurger } from "react-icons/tb";
 export const ChooseUs = () => {
   return (
     <div className="p-10 lg:flex pb-36">
-      <div className="w-full lg:w-1/2 grid grid-cols-6 gap-4">
+      <div className="w-full lg:w-1/2 grid grid-cols-6 gap-2">
         <Image
           src={img1}
           alt="image1"
@@ -23,12 +23,12 @@ export const ChooseUs = () => {
         <Image
           src={img2}
           alt="image2"
-          className=" row-span-2 row-start-2 col-span-3"
+          className="row-span-2 row-start-2 col-start-4 col-span-3"
         />
         <Image
           src={img3}
           alt="image3"
-          className=" row-start-4 row-end-6 col-span-2 row-span-4"
+          className="row-start-4 row-end-6 col-span-2 row-span-4"
         />
         <Image src={img4} alt="image4" className="col-start-3 col-span-2" />
         <Image src={img5} alt="image5" className="col-span-2" />

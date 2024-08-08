@@ -5,6 +5,7 @@ import { ChoosePick } from "./components/home/ChoosePick";
 import { ChooseUs } from "./components/home/ChooseUs";
 import Client from "./components/home/Client";
 import HeroV2 from "./components/home/HeroV2";
+import Process from "./components/home/Process";
 import { Staff } from "./components/home/Staff";
 import Testimonial from "./components/home/Testimonial";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <ChoosePick />
       <Staff />
       <Testimonial />
+      <Process />
       <div className="pb-[500px]"></div>
     </div>
   );

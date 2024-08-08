@@ -34,10 +34,10 @@ const About = () => {
           Read More
         </button>
       </section>
-      <div className="w-full flex flex-wrap mt-10 md:mt-0 md:w-1/2 gap-1">
+      <div className="w-full flex flex-wrap mt-10 md:mt-0 md:w-1/2 gap-2">
         <Image src={bgWCU1} alt={"gambar1"} className="rounded-md w-full" />
-        <Image src={bgWCU2} alt={"gambar1"} className="rounded-md w-[49%]" />
-        <Image src={bgWCU3} alt={"gambar1"} className="rounded-md w-[49%]" />
+        <Image src={bgWCU2} alt={"gambar1"} className="rounded-md w-[48%]" />
+        <Image src={bgWCU3} alt={"gambar1"} className="rounded-md w-[48%]" />
       </div>
       {/* <section className="w-full image grid grid-rows-2 mt-10 gap-2 md:w-1/2 md:p-3">
         <Image src={bgWCU1} alt={"gambar1"} className="col-span-2" />

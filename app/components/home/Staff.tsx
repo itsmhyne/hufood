@@ -1,8 +1,8 @@
 import Image from "next/image";
-import item1 from "./../../../public/img/home/cfi1.png";
-import item2 from "./../../../public/img/home/cfi2.png";
-import item3 from "./../../../public/img/home/cfi3.png";
-import item4 from "./../../../public/img/home/cfi4.png";
+import item1 from "./../../../public/img/home/s1.png";
+import item2 from "./../../../public/img/home/s2.png";
+import item3 from "./../../../public/img/home/s3.png";
+import item4 from "./../../../public/img/home/s4.png";
 export const Staff = () => {
   return (
     <div className="p-10 flex flex-wrap justify-center">
