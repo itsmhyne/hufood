@@ -6,7 +6,7 @@ import { RiPlayLine } from "react-icons/ri";
 const Process = () => {
   return (
     <div className="bg-home-process w-full h-[500] bg-fixed bg-center flex items-center justify-center relative px-10 py-10">
-      <div className="absolute inset-0 bg-black opacity-75"></div>
+      <div className="absolute inset-0 bg-black opacity-0"></div>
       <div className="w-full flex flex-wrap relative z-10 text-end gap-5 justify-end">
         <h1 className="font-greatvibes text-primary text-2xl">
           Restaurant Active Process
