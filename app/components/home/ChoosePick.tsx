@@ -2,10 +2,6 @@ import Image from "next/image";
 import ab1 from "./../../../public/img/home/ab1.png";
 import ab2 from "./../../../public/img/home/ab2.png";
 import ab3 from "./../../../public/img/home/ab3.png";
-import cf1 from "./../../../public/img/home/cf1.png";
-import cf2 from "./../../../public/img/home/cf2.png";
-import cf3 from "./../../../public/img/home/cf3.png";
-import cf4 from "./../../../public/img/home/cf4.png";
 import wcu1 from "./../../../public/img/home/wcu1.png";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 
