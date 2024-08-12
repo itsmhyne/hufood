@@ -43,6 +43,7 @@ import {
   RiMessage2Line,
   RiShare2Line,
   RiShareLine,
+  RiHistoryLine,
 } from "react-icons/ri";
 import { TbBurger } from "react-icons/tb";
 import { LuCookie } from "react-icons/lu";
@@ -483,20 +484,60 @@ export default function Home() {
           <p className="text-base text-white font-normal mt-5">
             Don&apos;t wait make a smart & logical quote here. Its pretty easy.
           </p>
-          <div className="sub flex mt-10">
+          <div className="sub flex mt-10 w-full">
             <input
               type="text"
               name="email"
               id="email"
-              className="bg-primary text-white px-2 py-2 text-base placeholder:text-white placeholder:font-light placeholder:text-xs"
+              className="bg-primary text-white px-4 py-2 text-base placeholder:text-white placeholder:font-light placeholder:text-xs"
               placeholder="Enter Your Email"
             />
             <button className="bg-white text-primary text-base text-nowrap px-2">
-              Subscribe Now
+              Subscribe
             </button>
+          </div>
+          <div className="footer-bottom">
+            <div className="about">
+              <h5 className="textlg">About us</h5>
+            </div>
           </div>
         </div>
         <hr className="border-primary my-10" />
+        <div className="about-us">
+          <h5 className="text-white text-2xl">About Us.</h5>
+          <p className="text-white my-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+            libero quia fugiat aut assumenda et accusamus doloribus eveniet
+            temporibus eaque.
+          </p>
+          <div className="flex gap-4 items-center">
+            <div className="bg-primary p-4 rounded-sm">
+              <RiHistoryLine className="text-white w-8 h-8" />
+            </div>
+            <div className="text-white flex flex-wrap gap-2">
+              <h4 className="text-lg">Opening Houres</h4>
+              <h6 className="text-base">Mon - Sat(8.00-22.00)</h6>
+            </div>
+          </div>
+        </div>
+        <div className="useful-links text-white my-5">
+          <h5 className="text-2xl">Useful Links</h5>
+          <h4 className="mt-4 text-base">About</h4>
+          <h4 className="mt-4 text-base">News</h4>
+          <h4 className="mt-4 text-base">Partners</h4>
+          <h4 className="mt-4 text-base">Team</h4>
+          <h4 className="mt-4 text-base">Menu</h4>
+          <h4 className="mt-4 text-base">Contacts</h4>
+        </div>
+        <div className="help text-white my-5">
+          <h5 className="text-2xl">Help?</h5>
+          <h4 className="mt-4 text-base">FAQ</h4>
+          <h4 className="mt-4 text-base">Terms & conditions</h4>
+          <h4 className="mt-4 text-base">Reporting</h4>
+          <h4 className="mt-4 text-base">Documentation</h4>
+          <h4 className="mt-4 text-base">Support Policy</h4>
+          <h4 className="mt-4 text-base">Privacy</h4>
+        </div>
       </section>
       {/* end footer */}
 
