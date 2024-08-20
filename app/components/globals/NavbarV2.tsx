@@ -34,7 +34,7 @@ const NavbarV2 = () => {
       className={`${navbarClasses} top-0 z-20 w-full flex justify-between items-center px-10 py-8 md:p-10`}
     >
       <span className="text-primary text-xl font-bold font-inter">
-        HU<span className="text-white font-bold">Food</span>
+        AGS<span className="text-white font-bold">Kesamben</span>
       </span>
       <Bars3BottomRightIcon className="w-7 h-7 text-white" />
     </div>

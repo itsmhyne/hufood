@@ -132,16 +132,16 @@ export default function Home() {
           <span className="text-primary">Ch</span>oose Food Item
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mt-12 text-center">
-          <Image src={item1} alt={"item1"} />
-          <Image src={item2} alt={"item2"} />
-          <Image src={item3} alt={"item3"} />
-          <Image src={item4} alt={"item4"} />
+          <Image src={item1} alt={"item1"} className="w-full" />
+          <Image src={item2} alt={"item2"} className="w-full" />
+          <Image src={item3} alt={"item3"} className="w-full" />
+          <Image src={item4} alt={"item4"} className="w-full" />
         </div>
       </section>
       {/* end category section */}
 
       {/* why choose us section */}
-      <section className="p-10 lg:flex pb-36">
+      <section className="p-10 lg:flex pb-36 gap-5">
         <div className="w-full lg:w-1/2 grid grid-cols-6 gap-2">
           <Image
             src={img1}
@@ -159,8 +159,16 @@ export default function Home() {
             className="row-start-4 row-end-6 col-span-2 row-span-4"
           />
           <Image src={img4} alt="image4" className="col-start-3 col-span-2" />
-          <Image src={img5} alt="image5" className="col-span-2" />
-          <Image src={img6} alt="image6" className="col-start-5 col-span-2" />
+          <Image
+            src={img5}
+            alt="image5"
+            className="col-span-2 md:col-start-5 md:row-start-5"
+          />
+          <Image
+            src={img6}
+            alt="image6"
+            className="col-start-5 col-span-2 md:row-start-5"
+          />
         </div>
         <div className="w-full lg:w-1/2 mt-10">
           <h1 className="font-greatvibes text-primary text-2xl md:text-3xl">
@@ -213,7 +221,7 @@ export default function Home() {
 
       {/* client section */}
       <section className="bg-home-client w-full h-[500] bg-fixed bg-center flex items-center justify-center relative px-10 py-10">
-        <div className="absolute inset-0 bg-black opacity-75"></div>
+        <div className="absolute inset-0 bg-black opacity-50 w-full h-full"></div>
         <div className="w-full flex flex-wrap relative z-10 items-center gap-5 justify-between">
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <PiChefHat className="text-primary w-12 h-12" />
@@ -342,7 +350,7 @@ export default function Home() {
           <Image src={staff4} alt={"staff4"} />
         </div>
 
-        <button className="bg-transparent text-white border border-primary  py-4 px-8 rounded-full font-medium mt-10">
+        <button className="text-white bg-transparent border border-primary py-4 px-8 rounded-full mt-10 text-sm md:text-base">
           See More
         </button>
       </section>
@@ -397,13 +405,13 @@ export default function Home() {
             <span className="text-primary">We </span>Document Every Food Bean
             Process untile it is saved.
           </h1>
-          <p className="text-slate-400 text-base pb-2">
+          <p className="text-white text-base pb-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
             corporis nesciunt repudiandae mollitia nihil voluptatum
             reprehenderit. Nisi ea quam at.
           </p>
           <div className="button flex gap-3">
-            <button className="text-white bg-tran  border border-primary py-4 px-8 rounded-full mt-10 text-sm md:text-base">
+            <button className="text-white bg-transparent border border-primary py-4 px-8 rounded-full mt-10 text-sm md:text-base">
               Read More
             </button>
             <button className="text-white bg-primary py-4 px-8 rounded-full mt-10 text-sm md:text-base">
@@ -492,10 +500,10 @@ export default function Home() {
               type="text"
               name="email"
               id="email"
-              className="bg-primary text-white px-4 py-2 text-base placeholder:text-white placeholder:font-light placeholder:text-xs"
+              className="bg-primary text-white px-4 py-2 text-base placeholder:text-white placeholder:font-medium placeholder:text-xs w-3/4"
               placeholder="Enter Your Email"
             />
-            <button className="bg-white text-primary text-base text-nowrap px-2">
+            <button className="bg-white text-primary font-semibold text-sm px-2 w-auto">
               Subscribe
             </button>
           </div>
