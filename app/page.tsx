@@ -398,23 +398,23 @@ export default function Home() {
       <section className="bg-home-process w-full h-[500] bg-fixed bg-center flex items-center justify-center relative px-10 py-10">
         <div className="absolute inset-0 bg-black opacity-0"></div>
         <div className="w-full flex flex-wrap relative z-10 text-end gap-5 justify-end">
-          <h1 className="font-greatvibes text-primary text-2xl md:text-3xl">
+          <h1 className="font-greatvibes text-primary text-xl md:text-3xl">
             Restaurant Active Process
           </h1>
-          <h1 className="text-white font-bold text-4xl md:text-6xl py-2 text-end">
+          <h1 className="text-white font-bold text-2xl md:text-6xl py-2 text-end">
             <span className="text-primary">We </span>Document Every Food Bean
             Process untile it is saved.
           </h1>
-          <p className="text-white text-base pb-2">
+          <p className="text-white text-sm pb-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
             corporis nesciunt repudiandae mollitia nihil voluptatum
             reprehenderit. Nisi ea quam at.
           </p>
           <div className="button flex gap-3">
-            <button className="text-white bg-transparent border border-primary py-4 px-8 rounded-full mt-10 text-sm md:text-base">
+            <button className="text-white bg-transparent border border-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
               Read More
             </button>
-            <button className="text-white bg-primary py-4 px-8 rounded-full mt-10 text-sm md:text-base">
+            <button className="text-white bg-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
               Play Video
             </button>
           </div>
@@ -424,10 +424,10 @@ export default function Home() {
 
       {/* blog */}
       <section className="p-10">
-        <h1 className="text-center text-primary font-greatvibes text-2xl md:text-3xl">
+        <h1 className="text-center text-primary font-greatvibes text-xl md:text-3xl">
           Blog
         </h1>
-        <h1 className="text-center text-white font-bold text-4xl md:text-6xl mt-2">
+        <h1 className="text-center text-white font-bold text-2xl md:text-6xl mt-2">
           <span className="text-primary">La</span>test News & Blog
         </h1>
         <div className="w-full flex flex-wrap gap-5 mt-10 justify-center">
@@ -489,10 +489,10 @@ export default function Home() {
       {/* footer */}
       <section className="p-10">
         <div className="subscribe">
-          <h4 className="text-white text-3xl">
+          <h4 className="text-white text-2xl">
             <span className="text-primary">St</span>ill You Need Our Support ?
           </h4>
-          <p className="text-base text-white font-normal mt-5">
+          <p className="text-sm text-white font-normal mt-5">
             Don&apos;t wait make a smart & logical quote here. Its pretty easy.
           </p>
           <div className="sub flex mt-10 w-full">
@@ -500,7 +500,7 @@ export default function Home() {
               type="text"
               name="email"
               id="email"
-              className="bg-primary text-white px-4 py-2 text-base placeholder:text-white placeholder:font-medium placeholder:text-xs w-3/4 rounded-tl rounded-bl"
+              className="bg-primary text-white px-4 py-2 text-base placeholder:text-white placeholder:font-medium placeholder:text-sm w-3/4 rounded-tl rounded-bl"
               placeholder="Enter Your Email"
             />
             <button className="bg-white text-primary font-semibold text-sm px-2 w-auto rounded-tr rounded-br">
@@ -515,67 +515,61 @@ export default function Home() {
         </div>
         <hr className="border-primary my-10" />
         <div className="about-us">
-          <h5 className="text-white text-2xl">About Us.</h5>
-          <p className="text-white my-4">
+          <h5 className="text-white text-lg">About Us.</h5>
+          <p className="text-white my-4 text-sm">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             libero quia fugiat aut assumenda et accusamus doloribus eveniet
             temporibus eaque.
           </p>
           <div className="flex gap-4 items-center">
-            <div className="bg-primary p-4 rounded-sm">
+            <div className="bg-primary p-3 rounded-sm">
               <RiHistoryLine className="text-white w-8 h-8" />
             </div>
             <div className="text-white flex flex-wrap gap-2">
               <h4 className="text-lg">Opening Houres</h4>
-              <h6 className="text-base">Mon - Sat(8.00-22.00)</h6>
+              <h6 className="text-sm">Mon - Sat(8.00-22.00)</h6>
             </div>
           </div>
         </div>
         <div className="useful-links text-white mt-10">
-          <h5 className="text-2xl">Useful Links</h5>
-          <h4 className="mt-4 text-base">About</h4>
-          <h4 className="mt-4 text-base">News</h4>
-          <h4 className="mt-4 text-base">Partners</h4>
-          <h4 className="mt-4 text-base">Team</h4>
-          <h4 className="mt-4 text-base">Menu</h4>
-          <h4 className="mt-4 text-base">Contacts</h4>
+          <h5 className="text-lg">Useful Links</h5>
+          <h4 className="mt-4 text-sm">About</h4>
+          <h4 className="mt-4 text-sm">News</h4>
+          <h4 className="mt-4 text-sm">Partners</h4>
+          <h4 className="mt-4 text-sm">Team</h4>
+          <h4 className="mt-4 text-sm">Menu</h4>
+          <h4 className="mt-4 text-sm">Contacts</h4>
         </div>
         <div className="help text-white mt-10">
-          <h5 className="text-2xl">Help?</h5>
-          <h4 className="mt-4 text-base">FAQ</h4>
-          <h4 className="mt-4 text-base">Terms & conditions</h4>
-          <h4 className="mt-4 text-base">Reporting</h4>
-          <h4 className="mt-4 text-base">Documentation</h4>
-          <h4 className="mt-4 text-base">Support Policy</h4>
-          <h4 className="mt-4 text-base">Privacy</h4>
+          <h5 className="text-lg">Help?</h5>
+          <h4 className="mt-4 text-sm">FAQ</h4>
+          <h4 className="mt-4 text-sm">Terms & conditions</h4>
+          <h4 className="mt-4 text-sm">Reporting</h4>
+          <h4 className="mt-4 text-sm">Documentation</h4>
+          <h4 className="mt-4 text-sm">Support Policy</h4>
+          <h4 className="mt-4 text-sm">Privacy</h4>
         </div>
         <div className="recent-post text-white mt-10">
-          <h5 className="text-2xl">Recent Post</h5>
+          <h5 className="text-lg">Recent Post</h5>
           <div className="post mt-4 flex items-center gap-4">
             <Image src={item1} alt="recent post" className="w-16 h-12" />
             <div className="detail flex flex-wrap w-full gap-1">
-              <span className="text-base text-slate-400 w-full">
-                02 Nov 2024
-              </span>
-              <span className="text-lg">Keep Your Bussiness</span>
+              <span className="text-xs text-slate-400 w-full">02 Nov 2024</span>
+              <span className="text-sm">Keep Your Bussiness</span>
             </div>
           </div>
           <div className="post mt-4 flex items-center gap-4">
             <Image src={item2} alt="recent post" className="w-16 h-12" />
             <div className="detail flex flex-wrap w-full gap-1">
-              <span className="text-base text-slate-400 w-full">
-                02 Nov 2024
-              </span>
-              <span className="text-lg">Keep Your Bussiness</span>
+              <span className="text-xs text-slate-400 w-full">02 Nov 2024</span>
+              <span className="text-sm">Keep Your Bussiness</span>
             </div>
           </div>
           <div className="post mt-4 flex items-center gap-4">
             <Image src={item3} alt="recent post" className="w-16 h-12" />
             <div className="detail flex flex-wrap w-full gap-1">
-              <span className="text-base text-slate-400 w-full">
-                02 Nov 2024
-              </span>
-              <span className="text-lg">Keep Your Bussiness</span>
+              <span className="text-xs text-slate-400 w-full">02 Nov 2024</span>
+              <span className="text-sm">Keep Your Bussiness</span>
             </div>
           </div>
         </div>
@@ -588,17 +582,5 @@ export default function Home() {
       </section>
       {/* end footer */}
     </div>
-    // <div className="bg-black">
-    //   <HeroV2 />
-    //   <About />
-    //   <Category />
-    //   <ChooseUs />
-    //   <Client />
-    //   <ChoosePick />
-    //   <Staff />
-    //   <Testimonial />
-    //   <Process />
-    //   <div className="pb-[500px]"></div>
-    // </div>
   );
 }
