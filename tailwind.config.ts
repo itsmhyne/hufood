@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#FF9F0D",
+        // primary: "#39DB4A",
+        secondary: "#FF6868",
       },
       fontFamily: {
         miniver: ["Miniver", "cursive"],

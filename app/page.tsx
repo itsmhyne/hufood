@@ -187,27 +187,27 @@ export default function Home() {
           <div className="detail flex py-10 gap-4">
             <div className="text-center">
               <div className="bg-primary p-5 rounded-md mb-3">
-                <TbBurger className="text-white text-2xl w-12 h-12" />
+                <TbBurger className="text-white text-2xl w-8 h-8" />
               </div>
               <span className="text-white text-base">Fast Food</span>
             </div>
             <div className="text-center">
               <div className="bg-primary p-5 rounded-md mb-3">
-                <LuCookie className="text-white text-2xl w-12 h-12" />
+                <LuCookie className="text-white text-2xl w-8 h-8" />
               </div>
               <span className="text-white text-base">Lunch</span>
             </div>
             <div className="text-center">
               <div className="bg-primary p-5 rounded-md mb-3">
-                <RiDrinksLine className="text-white text-2xl w-12 h-12" />
+                <RiDrinksLine className="text-white text-2xl w-8 h-8" />
               </div>
               <span className="text-white text-base">Dinner</span>
             </div>
           </div>
-          <div className="relative flex gap-4 px-10 py-2 items-center w-min">
+          <div className="relative flex gap-4 px-5 py-2 items-center w-min">
             <div className="absolute inset-0 bg-primary rounded-lg"></div>
             <div className="absolute inset-0 bg-white ml-2 rounded-tr-lg rounded-br-lg"></div>
-            <h1 className="text-primary font-semibold text-4xl relative z-10">
+            <h1 className="text-primary font-semibold text-2xl relative z-10">
               30+
             </h1>
             <div className="relative z-10">
@@ -266,10 +266,10 @@ export default function Home() {
 
         <div className="slider mt-10">
           <div className="flex items-center justify-between">
-            <h3 className="text-slate-300">Breakfast</h3>
+            <h3 className="text-white">Breakfast</h3>
             <div className="navigator flex">
-              <RiArrowLeftSLine className="text-slate-300" />
-              <RiArrowRightSLine className="text-primary" />
+              <RiArrowLeftSLine className="text-slate-300 h-5 w-5" />
+              <RiArrowRightSLine className="text-primary h-5 w-5" />
             </div>
           </div>
           <hr className="bg-slate-500 mt-4" />
@@ -341,7 +341,7 @@ export default function Home() {
           Staff
         </h1>
         <h1 className="text-center text-white font-bold text-4xl md:text-6xl py-5 w-full">
-          <span className="text-primary">Me</span>eet Our Staff
+          <span className="text-primary">Me</span>et Our Staff
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mt-10 text-center">
           <Image src={staff1} alt={"staff1"} />
@@ -434,12 +434,12 @@ export default function Home() {
           <div className="box border border-white rounded-md">
             <Image src={item1} alt="item1" className="w-full h-60" />
             <div className="desc p-5">
-              <span className="text-primary text-base">02 November 2023</span>
-              <h5 className="text-white text-xl py-3">
+              <span className="text-primary text-sm">02 November 2023</span>
+              <h5 className="text-white text-base py-3">
                 Lorem ipsum dolor sit amet.
               </h5>
               <div className="subdesc flex justify-between items-center">
-                <span className="text-base text-white">Learn More</span>
+                <span className="text-sm text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
                   <RiThumbUpLine className="text-white" />
                   <RiMessage2Line className="text-primary" />
@@ -451,12 +451,12 @@ export default function Home() {
           <div className="box border border-white rounded-md">
             <Image src={item2} alt="item2" className="w-full h-60" />
             <div className="desc p-5">
-              <span className="text-primary text-base">02 November 2023</span>
-              <h5 className="text-white text-xl py-3">
+              <span className="text-primary text-sm">02 November 2023</span>
+              <h5 className="text-white text-base py-3">
                 Lorem ipsum dolor sit amet.
               </h5>
               <div className="subdesc flex justify-between items-center">
-                <span className="text-base text-white">Learn More</span>
+                <span className="text-sm text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
                   <RiThumbUpLine className="text-white" />
                   <RiMessage2Line className="text-primary" />
@@ -468,12 +468,12 @@ export default function Home() {
           <div className="box border border-white rounded-md">
             <Image src={item3} alt="item3" className="w-full h-60" />
             <div className="desc p-5">
-              <span className="text-primary text-base">02 November 2023</span>
-              <h5 className="text-white text-xl py-3">
+              <span className="text-primary text-sm">02 November 2023</span>
+              <h5 className="text-white text-base py-3">
                 Lorem ipsum dolor sit amet.
               </h5>
               <div className="subdesc flex justify-between items-center">
-                <span className="text-base text-white">Learn More</span>
+                <span className="text-sm text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
                   <RiThumbUpLine className="text-white" />
                   <RiMessage2Line className="text-primary" />
@@ -500,10 +500,10 @@ export default function Home() {
               type="text"
               name="email"
               id="email"
-              className="bg-primary text-white px-4 py-2 text-base placeholder:text-white placeholder:font-medium placeholder:text-xs w-3/4"
+              className="bg-primary text-white px-4 py-2 text-base placeholder:text-white placeholder:font-medium placeholder:text-xs w-3/4 rounded-tl rounded-bl"
               placeholder="Enter Your Email"
             />
-            <button className="bg-white text-primary font-semibold text-sm px-2 w-auto">
+            <button className="bg-white text-primary font-semibold text-sm px-2 w-auto rounded-tr rounded-br">
               Subscribe
             </button>
           </div>
