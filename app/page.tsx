@@ -49,7 +49,7 @@ import { TbBurger } from "react-icons/tb";
 import { LuCookie } from "react-icons/lu";
 import { FaQuoteRight } from "react-icons/fa";
 import { HandThumbUpIcon } from "@heroicons/react/16/solid";
-import { ButtonText } from "./components/globals/ButtonText";
+import Button from "./components/globals/Button";
 
 export default function Home() {
   return (
@@ -66,18 +66,18 @@ export default function Home() {
             <hr className="w-28 h-1" />
           </div> */}
           <div className="w-full flex flex-wrap py-10 md:w-1/2">
-            <h1 className="text-primary font-greatvibes text-2xl md:text-3xl tracking-wider">
+            <h1 className="text-primary font-greatvibes text-xl md:text-3xl tracking-wider">
               It&apos;s Quick & Amusing!
             </h1>
-            <h1 className="text-white font-bold text-4xl md:text-6xl mt-5">
+            <h1 className="text-white font-bold text-2xl md:text-6xl mt-5">
               <span className="text-primary">Th</span>e art of speed food
               Quality
             </h1>
-            <h3 className="text-base md:text-lg font-medium text-white mt-8">
+            <h3 className="text-sm md:text-lg font-medium text-white mt-8">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
               ut saepe nobis eos? Placeat, deleniti!
             </h3>
-            <button className="text-white bg-primary py-4 px-8 rounded-full mt-10 text-sm md:text-base">
+            <button className="text-white bg-primary py-3 px-6 rounded-full mt-10 text-sxs md:text-base">
               See Menu
             </button>
           </div>
@@ -93,25 +93,25 @@ export default function Home() {
       {/* about section */}
       <section className="w-full flex flex-wrap text-white p-10 md:items-center">
         <section className="about w-full md:w-1/2 md:p-3">
-          <h1 className="font-greatvibes text-primary text-2xl md:text-3xl">
+          <h1 className="font-greatvibes text-primary text-xl md:text-3xl">
             About us
           </h1>
-          <h1 className="text-white font-bold text-4xl md:text-6xl py-5">
+          <h1 className="text-white font-bold text-2xl md:text-6xl py-5">
             <span className="text-primary">We </span>created the best foody
             product
           </h1>
-          <h3 className="text-base md:text-lg font-normal text-white">
+          <h3 className="text-sm md:text-lg font-normal text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             praesentium officiis illum inventore magnam asperiores temporibus
             totam tempore at a, non perspiciatis facere quidem consequuntur
             vero, molestias perferendis ab quam?
           </h3>
-          <ul className="pt-5 pb-10 flex flex-wrap gap-2 text-base md:text-lg font font-light text-white">
+          <ul className="pt-5 pb-10 flex flex-wrap gap-2 text-sm md:text-lg font font-light text-white">
             <li>✔ Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
             <li>✔ Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
             <li>✔ Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
           </ul>
-          <button className="text-white bg-primary py-4 px-8 rounded-full mt-2 mb-10 text-sm md:text-base">
+          <button className="text-white bg-primary py-3 px-6 rounded-full mt-2 mb-10 text-xs md:text-base">
             Read More
           </button>
         </section>
@@ -125,10 +125,10 @@ export default function Home() {
 
       {/* category section */}
       <section className="p-10">
-        <h1 className="text-center text-primary font-greatvibes text-2xl md:text-3xl">
+        <h1 className="text-center text-primary font-greatvibes text-xl md:text-3xl">
           Food Category
         </h1>
-        <h1 className="text-center text-white font-bold text-4xl md:text-6xl mt-2">
+        <h1 className="text-center text-white font-bold text-2xl md:text-6xl mt-2">
           <span className="text-primary">Ch</span>oose Food Item
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mt-12 text-center">
@@ -171,14 +171,14 @@ export default function Home() {
           />
         </div>
         <div className="w-full lg:w-1/2 mt-10">
-          <h1 className="font-greatvibes text-primary text-2xl md:text-3xl">
+          <h1 className="font-greatvibes text-primary text-xl md:text-3xl">
             Why Choose us
           </h1>
-          <h1 className="text-white font-bold text-4xl md:text-6xl py-5">
+          <h1 className="text-white font-bold text-2xl md:text-6xl py-5">
             <span className="text-primary">Ex</span>ta ordinary taste And
             Experienced
           </h1>
-          <h3 className="text-base text-white">
+          <h3 className="text-sm text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             praesentium officiis illum inventore magnam asperiores temporibus
             totam tempore at a, non perspiciatis facere quidem consequuntur
@@ -189,19 +189,19 @@ export default function Home() {
               <div className="bg-primary p-5 rounded-md mb-3">
                 <TbBurger className="text-white text-2xl w-8 h-8" />
               </div>
-              <span className="text-white text-base">Fast Food</span>
+              <span className="text-white text-sm">Fast Food</span>
             </div>
             <div className="text-center">
               <div className="bg-primary p-5 rounded-md mb-3">
                 <LuCookie className="text-white text-2xl w-8 h-8" />
               </div>
-              <span className="text-white text-base">Lunch</span>
+              <span className="text-white text-sm">Lunch</span>
             </div>
             <div className="text-center">
               <div className="bg-primary p-5 rounded-md mb-3">
                 <RiDrinksLine className="text-white text-2xl w-8 h-8" />
               </div>
-              <span className="text-white text-base">Dinner</span>
+              <span className="text-white text-sm">Dinner</span>
             </div>
           </div>
           <div className="relative flex gap-4 px-5 py-2 items-center w-min">
@@ -225,31 +225,31 @@ export default function Home() {
         <div className="w-full flex flex-wrap relative z-10 items-center gap-5 justify-between">
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <PiChefHat className="text-primary w-12 h-12" />
-            <span className="text-base text-white w-full my-2">
+            <span className=" text-white text-sm w-full my-2">
               Professional Chef
             </span>
-            <span className="text-white font-normal text-xl w-full">420</span>
+            <span className="text-white font-normal text-lg w-full">420</span>
           </div>
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <IoFastFood className="text-primary w-12 h-12" />
-            <span className="text-base font-normal text-white w-full my-2">
+            <span className=" text-white text-sm w-full my-2">
               Items of Food
             </span>
-            <span className="text-white font-normal text-xl w-full">320</span>
+            <span className="text-white font-normal text-lg w-full">320</span>
           </div>
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <PiForkKnife className="text-primary w-12 h-12" />
-            <span className="text-base font-normal text-white w-full my-2">
+            <span className=" text-white text-sm w-full my-2">
               Years of Experience
             </span>
-            <span className="text-white font-normal text-xl w-full">30+</span>
+            <span className="text-white font-normal text-lg w-full">30+</span>
           </div>
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <IoPizzaOutline className="text-primary w-12 h-12" />
-            <span className="text-base font-normal text-white w-full my-2">
+            <span className=" text-white text-sm w-full my-2">
               Happy Customers
             </span>
-            <span className="text-white font-normal text-xl w-full">220</span>
+            <span className="text-white font-normal text-lg w-full">220</span>
           </div>
         </div>
       </section>
@@ -257,16 +257,16 @@ export default function Home() {
 
       {/* choose & pick */}
       <section className="p-10 w-full">
-        <h1 className="text-center font-greatvibes text-primary text-2xl md:text-3xl">
+        <h1 className="text-center font-greatvibes text-primary text-xl md:text-3xl">
           Choose & Pick
         </h1>
-        <h1 className="text-center text-white font-bold text-4xl md:text-6xl py-5">
+        <h1 className="text-center text-white font-bold text-2xl md:text-6xl py-5">
           <span className="text-primary">Fr</span>om Our Menu
         </h1>
 
         <div className="slider mt-10">
           <div className="flex items-center justify-between">
-            <h3 className="text-white">Breakfast</h3>
+            <h3 className="text-white text-base">Breakfast</h3>
             <div className="navigator flex">
               <RiArrowLeftSLine className="text-slate-300 h-5 w-5" />
               <RiArrowRightSLine className="text-primary h-5 w-5" />
@@ -282,11 +282,11 @@ export default function Home() {
               className="bg-contain w-20 h-20 rounded-md"
             />
             <div className="text-white">
-              <h1 className="font-bold tracking-wide">Lectuce Leaf</h1>
-              <p className="text-neutral-300 font-light">
+              <h1 className="font-bold tracking-wide text-sm">Lectuce Leaf</h1>
+              <p className="text-neutral-300 font-light text-sm">
                 Lorem ipsum dolor sit amet.
               </p>
-              <h4 className="text-primary font-bold">Rp.12.500,00</h4>
+              <h4 className="text-primary font-bold text-sm">Rp.12.500,00</h4>
             </div>
           </div>
           <div className="menu flex gap-3">
@@ -296,11 +296,13 @@ export default function Home() {
               className="bg-contain w-20 h-20 rounded-md"
             />
             <div className="text-white">
-              <h1 className="font-bold tracking-wide">Fresh Breakfast</h1>
-              <p className="text-neutral-300 font-light">
+              <h1 className="font-bold tracking-wide text-sm">
+                Fresh Breakfast
+              </h1>
+              <p className="text-neutral-300 font-light text-sm">
                 Lorem ipsum dolor sit amet.
               </p>
-              <h4 className="text-primary font-bold">Rp.12.500,00</h4>
+              <h4 className="text-primary font-bold text-sm">Rp.12.500,00</h4>
             </div>
           </div>
           <div className="menu flex gap-3">
@@ -310,11 +312,11 @@ export default function Home() {
               className="bg-contain w-20 h-20 rounded-md"
             />
             <div className="text-white">
-              <h1 className="font-bold tracking-wide">Mild Butter</h1>
-              <p className="text-neutral-300 font-light">
+              <h1 className="font-bold tracking-wide text-sm">Mild Butter</h1>
+              <p className="text-neutral-300 font-light text-sm">
                 Lorem ipsum dolor sit amet.
               </p>
-              <h4 className="text-primary font-bold">Rp.12.500,00</h4>
+              <h4 className="text-primary font-bold text-sm">Rp.12.500,00</h4>
             </div>
           </div>
           <div className="menu flex gap-3">
@@ -324,11 +326,11 @@ export default function Home() {
               className="bg-contain w-20 h-20 rounded-md"
             />
             <div className="text-white">
-              <h1 className="font-bold tracking-wide">Fresh Bread</h1>
-              <p className="text-neutral-300 font-light">
+              <h1 className="font-bold tracking-wide text-sm">Fresh Bread</h1>
+              <p className="text-neutral-300 font-light text-sm">
                 Lorem ipsum dolor sit amet.
               </p>
-              <h4 className="text-primary font-bold">Rp.12.500,00</h4>
+              <h4 className="text-primary font-bold text-sm">Rp.12.500,00</h4>
             </div>
           </div>
         </div>
@@ -337,10 +339,10 @@ export default function Home() {
 
       {/* staff */}
       <section className="p-10 flex flex-wrap justify-center">
-        <h1 className="text-center text-primary font-greatvibes text-2xl md:text-3xl w-full">
+        <h1 className="text-center text-primary font-greatvibes text-xl md:text-3xl w-full">
           Staff
         </h1>
-        <h1 className="text-center text-white font-bold text-4xl md:text-6xl py-5 w-full">
+        <h1 className="text-center text-white font-bold text-2xl md:text-6xl py-5 w-full">
           <span className="text-primary">Me</span>et Our Staff
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mt-10 text-center">
@@ -350,7 +352,7 @@ export default function Home() {
           <Image src={staff4} alt={"staff4"} />
         </div>
 
-        <button className="text-white bg-transparent border border-primary py-4 px-8 rounded-full mt-10 text-sm md:text-base">
+        <button className="text-white bg-transparent border border-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
           See More
         </button>
       </section>
@@ -359,10 +361,10 @@ export default function Home() {
       {/* testimonial */}
       <section className="p-10 flex flex-wrap">
         <section className="title">
-          <h1 className="font-greatvibes text-primary text-2xl md:text-3xl">
+          <h1 className="font-greatvibes text-primary text-xl md:text-3xl">
             Testimonials
           </h1>
-          <h1 className="text-slate-100 font-bold text-3xl md:text-6xl py-5">
+          <h1 className="text-slate-100 font-bold text-2xl md:text-6xl py-5">
             <span className="text-primary">Wh</span>at our client are saying
           </h1>
         </section>
@@ -374,7 +376,7 @@ export default function Home() {
             width={100}
           />
           <FaQuoteRight className="text-primary w-full" />
-          <p>
+          <p className="text-sm">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Dignissimos officia distinctio veritatis laborum at, modi deserunt
             saepe obcaecati nesciunt aliquam?
@@ -387,7 +389,7 @@ export default function Home() {
             <RiStarFill className="text-slate-400" />
           </div>
           <div className="comment w-full">
-            <h3 className="font-bold text-xl">John Doe</h3>
+            <h3 className="font-bold text-lg">John Doe</h3>
             <p className="font-thin text-xs">Food Specialist</p>
           </div>
         </div>
@@ -435,11 +437,11 @@ export default function Home() {
             <Image src={item1} alt="item1" className="w-full h-60" />
             <div className="desc p-5">
               <span className="text-primary text-sm">02 November 2023</span>
-              <h5 className="text-white text-base py-3">
+              <h5 className="text-white text-sm py-3">
                 Lorem ipsum dolor sit amet.
               </h5>
               <div className="subdesc flex justify-between items-center">
-                <span className="text-sm text-slate-300">Learn More</span>
+                <span className="text-xs text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
                   <RiThumbUpLine className="text-white" />
                   <RiMessage2Line className="text-primary" />
@@ -452,11 +454,11 @@ export default function Home() {
             <Image src={item2} alt="item2" className="w-full h-60" />
             <div className="desc p-5">
               <span className="text-primary text-sm">02 November 2023</span>
-              <h5 className="text-white text-base py-3">
+              <h5 className="text-white text-sm py-3">
                 Lorem ipsum dolor sit amet.
               </h5>
               <div className="subdesc flex justify-between items-center">
-                <span className="text-sm text-slate-300">Learn More</span>
+                <span className="text-xs text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
                   <RiThumbUpLine className="text-white" />
                   <RiMessage2Line className="text-primary" />
@@ -469,11 +471,11 @@ export default function Home() {
             <Image src={item3} alt="item3" className="w-full h-60" />
             <div className="desc p-5">
               <span className="text-primary text-sm">02 November 2023</span>
-              <h5 className="text-white text-base py-3">
+              <h5 className="text-white text-sm py-3">
                 Lorem ipsum dolor sit amet.
               </h5>
               <div className="subdesc flex justify-between items-center">
-                <span className="text-sm text-slate-300">Learn More</span>
+                <span className="text-xs text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
                   <RiThumbUpLine className="text-white" />
                   <RiMessage2Line className="text-primary" />
@@ -531,45 +533,53 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="useful-links text-white mt-10">
-          <h5 className="text-lg">Useful Links</h5>
-          <h4 className="mt-4 text-sm">About</h4>
-          <h4 className="mt-4 text-sm">News</h4>
-          <h4 className="mt-4 text-sm">Partners</h4>
-          <h4 className="mt-4 text-sm">Team</h4>
-          <h4 className="mt-4 text-sm">Menu</h4>
-          <h4 className="mt-4 text-sm">Contacts</h4>
-        </div>
-        <div className="help text-white mt-10">
-          <h5 className="text-lg">Help?</h5>
-          <h4 className="mt-4 text-sm">FAQ</h4>
-          <h4 className="mt-4 text-sm">Terms & conditions</h4>
-          <h4 className="mt-4 text-sm">Reporting</h4>
-          <h4 className="mt-4 text-sm">Documentation</h4>
-          <h4 className="mt-4 text-sm">Support Policy</h4>
-          <h4 className="mt-4 text-sm">Privacy</h4>
-        </div>
-        <div className="recent-post text-white mt-10">
-          <h5 className="text-lg">Recent Post</h5>
-          <div className="post mt-4 flex items-center gap-4">
-            <Image src={item1} alt="recent post" className="w-16 h-12" />
-            <div className="detail flex flex-wrap w-full gap-1">
-              <span className="text-xs text-slate-400 w-full">02 Nov 2024</span>
-              <span className="text-sm">Keep Your Bussiness</span>
-            </div>
+        <div className="w-full flex flex-wrap">
+          <div className="useful-links text-white mt-10 w-1/2">
+            <h5 className="text-lg">Useful Links</h5>
+            <h4 className="mt-4 text-sm">About</h4>
+            <h4 className="mt-4 text-sm">News</h4>
+            <h4 className="mt-4 text-sm">Partners</h4>
+            <h4 className="mt-4 text-sm">Team</h4>
+            <h4 className="mt-4 text-sm">Menu</h4>
+            <h4 className="mt-4 text-sm">Contacts</h4>
           </div>
-          <div className="post mt-4 flex items-center gap-4">
-            <Image src={item2} alt="recent post" className="w-16 h-12" />
-            <div className="detail flex flex-wrap w-full gap-1">
-              <span className="text-xs text-slate-400 w-full">02 Nov 2024</span>
-              <span className="text-sm">Keep Your Bussiness</span>
-            </div>
+          <div className="help text-white mt-10 w-1/2">
+            <h5 className="text-lg">Help?</h5>
+            <h4 className="mt-4 text-sm">FAQ</h4>
+            <h4 className="mt-4 text-sm">Terms & conditions</h4>
+            <h4 className="mt-4 text-sm">Reporting</h4>
+            <h4 className="mt-4 text-sm">Documentation</h4>
+            <h4 className="mt-4 text-sm">Support Policy</h4>
+            <h4 className="mt-4 text-sm">Privacy</h4>
           </div>
-          <div className="post mt-4 flex items-center gap-4">
-            <Image src={item3} alt="recent post" className="w-16 h-12" />
-            <div className="detail flex flex-wrap w-full gap-1">
-              <span className="text-xs text-slate-400 w-full">02 Nov 2024</span>
-              <span className="text-sm">Keep Your Bussiness</span>
+          <div className="recent-post text-white mt-10 w-full">
+            <h5 className="text-lg">Recent Post</h5>
+            <div className="post mt-4 flex items-center gap-4">
+              <Image src={item1} alt="recent post" className="w-16 h-12" />
+              <div className="detail flex flex-wrap w-full gap-1">
+                <span className="text-xs text-slate-400 w-full">
+                  02 Nov 2024
+                </span>
+                <span className="text-sm">Keep Your Bussiness</span>
+              </div>
+            </div>
+            <div className="post mt-4 flex items-center gap-4">
+              <Image src={item2} alt="recent post" className="w-16 h-12" />
+              <div className="detail flex flex-wrap w-full gap-1">
+                <span className="text-xs text-slate-400 w-full">
+                  02 Nov 2024
+                </span>
+                <span className="text-sm">Keep Your Bussiness</span>
+              </div>
+            </div>
+            <div className="post mt-4 flex items-center gap-4">
+              <Image src={item3} alt="recent post" className="w-16 h-12" />
+              <div className="detail flex flex-wrap w-full gap-1">
+                <span className="text-xs text-slate-400 w-full">
+                  02 Nov 2024
+                </span>
+                <span className="text-sm">Keep Your Bussiness</span>
+              </div>
             </div>
           </div>
         </div>
@@ -584,3 +594,7 @@ export default function Home() {
     </div>
   );
 }
+
+/**
+ * Author : M. Hamdan Yusuf
+ */
