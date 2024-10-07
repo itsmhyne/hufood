@@ -53,7 +53,7 @@ import Button from "./components/globals/Button";
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div className="">
       {/* hero section */}
       <section className="bg-hero-pattern w-screen bg-cover bg-center h-screen flex items-center justify-center relative px-10 bg-fixed">
         <div className="absolute inset-0 bg-black opacity-75"></div>
@@ -77,7 +77,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
               ut saepe nobis eos? Placeat, deleniti!
             </h3>
-            <button className="text-white bg-primary py-3 px-6 rounded-full mt-10 text-sxs md:text-base">
+            <button className="text-white bg-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
               See Menu
             </button>
           </div>
@@ -91,27 +91,27 @@ export default function Home() {
       {/* end hero section */}
 
       {/* about section */}
-      <section className="w-full flex flex-wrap text-white p-10 md:items-center">
+      <section className="w-full flex flex-wrap  p-10 md:items-center">
         <section className="about w-full md:w-1/2 md:p-3">
           <h1 className="font-greatvibes text-primary text-xl md:text-3xl">
             About us
           </h1>
-          <h1 className="text-white font-bold text-2xl md:text-6xl py-5">
+          <h1 className=" font-bold text-2xl md:text-6xl py-5">
             <span className="text-primary">We </span>created the best foody
             product
           </h1>
-          <h3 className="text-sm md:text-lg font-normal text-white">
+          <h3 className="text-sm md:text-lg font-normal ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             praesentium officiis illum inventore magnam asperiores temporibus
             totam tempore at a, non perspiciatis facere quidem consequuntur
             vero, molestias perferendis ab quam?
           </h3>
-          <ul className="pt-5 pb-10 flex flex-wrap gap-2 text-sm md:text-lg font font-light text-white">
+          <ul className="pt-5 pb-10 flex flex-wrap gap-2 text-sm md:text-lg font font-light ">
             <li>✔ Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
             <li>✔ Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
             <li>✔ Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
           </ul>
-          <button className="text-white bg-primary py-3 px-6 rounded-full mt-2 mb-10 text-xs md:text-base">
+          <button className=" bg-primary py-3 px-6 rounded-full mt-2 mb-10 text-xs md:text-base">
             Read More
           </button>
         </section>
@@ -128,7 +128,7 @@ export default function Home() {
         <h1 className="text-center text-primary font-greatvibes text-xl md:text-3xl">
           Food Category
         </h1>
-        <h1 className="text-center text-white font-bold text-2xl md:text-6xl mt-2">
+        <h1 className="text-center  font-bold text-2xl md:text-6xl mt-2">
           <span className="text-primary">Ch</span>oose Food Item
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mt-12 text-center">
@@ -174,11 +174,11 @@ export default function Home() {
           <h1 className="font-greatvibes text-primary text-xl md:text-3xl">
             Why Choose us
           </h1>
-          <h1 className="text-white font-bold text-2xl md:text-6xl py-5">
+          <h1 className=" font-bold text-2xl md:text-6xl py-5">
             <span className="text-primary">Ex</span>ta ordinary taste And
             Experienced
           </h1>
-          <h3 className="text-sm text-white">
+          <h3 className="text-sm ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             praesentium officiis illum inventore magnam asperiores temporibus
             totam tempore at a, non perspiciatis facere quidem consequuntur
@@ -189,28 +189,28 @@ export default function Home() {
               <div className="bg-primary p-5 rounded-md mb-3">
                 <TbBurger className="text-white text-2xl w-8 h-8" />
               </div>
-              <span className="text-white text-sm">Fast Food</span>
+              <span className=" text-sm">Fast Food</span>
             </div>
             <div className="text-center">
               <div className="bg-primary p-5 rounded-md mb-3">
                 <LuCookie className="text-white text-2xl w-8 h-8" />
               </div>
-              <span className="text-white text-sm">Lunch</span>
+              <span className=" text-sm">Lunch</span>
             </div>
             <div className="text-center">
               <div className="bg-primary p-5 rounded-md mb-3">
                 <RiDrinksLine className="text-white text-2xl w-8 h-8" />
               </div>
-              <span className="text-white text-sm">Dinner</span>
+              <span className=" text-sm">Dinner</span>
             </div>
           </div>
           <div className="relative flex gap-4 px-5 py-2 items-center w-min">
             <div className="absolute inset-0 bg-primary rounded-lg"></div>
-            <div className="absolute inset-0 bg-white ml-2 rounded-tr-lg rounded-br-lg"></div>
+            <div className="absolute inset-0 bg-black ml-2 rounded-tr-lg rounded-br-lg"></div>
             <h1 className="text-primary font-semibold text-2xl relative z-10">
               30+
             </h1>
-            <div className="relative z-10">
+            <div className="relative text-white z-10">
               <h3 className="font-normal text-sm">Years of</h3>
               <h2 className="font-black text-base">Experienced</h2>
             </div>
@@ -225,28 +225,28 @@ export default function Home() {
         <div className="w-full flex flex-wrap relative z-10 items-center gap-5 justify-between">
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <PiChefHat className="text-primary w-12 h-12" />
-            <span className=" text-white text-sm w-full my-2">
+            <span className="text-white text-sm w-full my-2">
               Professional Chef
             </span>
             <span className="text-white font-normal text-lg w-full">420</span>
           </div>
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <IoFastFood className="text-primary w-12 h-12" />
-            <span className=" text-white text-sm w-full my-2">
+            <span className="text-white text-sm w-full my-2">
               Items of Food
             </span>
             <span className="text-white font-normal text-lg w-full">320</span>
           </div>
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <PiForkKnife className="text-primary w-12 h-12" />
-            <span className=" text-white text-sm w-full my-2">
+            <span className="text-white text-sm w-full my-2">
               Years of Experience
             </span>
             <span className="text-white font-normal text-lg w-full">30+</span>
           </div>
           <div className="w-[45%] flex flex-wrap text-center justify-center">
             <IoPizzaOutline className="text-primary w-12 h-12" />
-            <span className=" text-white text-sm w-full my-2">
+            <span className="text-white text-sm w-full my-2">
               Happy Customers
             </span>
             <span className="text-white font-normal text-lg w-full">220</span>
@@ -260,13 +260,13 @@ export default function Home() {
         <h1 className="text-center font-greatvibes text-primary text-xl md:text-3xl">
           Choose & Pick
         </h1>
-        <h1 className="text-center text-white font-bold text-2xl md:text-6xl py-5">
+        <h1 className="text-center  font-bold text-2xl md:text-6xl py-5">
           <span className="text-primary">Fr</span>om Our Menu
         </h1>
 
         <div className="slider mt-10">
           <div className="flex items-center justify-between">
-            <h3 className="text-white text-base">Breakfast</h3>
+            <h3 className=" text-base">Breakfast</h3>
             <div className="navigator flex">
               <RiArrowLeftSLine className="text-slate-300 h-5 w-5" />
               <RiArrowRightSLine className="text-primary h-5 w-5" />
@@ -281,11 +281,9 @@ export default function Home() {
               alt="food"
               className="bg-contain w-20 h-20 rounded-md"
             />
-            <div className="text-white">
+            <div className="">
               <h1 className="font-bold tracking-wide text-sm">Lectuce Leaf</h1>
-              <p className="text-neutral-300 font-light text-sm">
-                Lorem ipsum dolor sit amet.
-              </p>
+              <p className=" font-light text-sm">Lorem ipsum dolor sit amet.</p>
               <h4 className="text-primary font-bold text-sm">Rp.12.500,00</h4>
             </div>
           </div>
@@ -295,13 +293,11 @@ export default function Home() {
               alt="food"
               className="bg-contain w-20 h-20 rounded-md"
             />
-            <div className="text-white">
+            <div className="">
               <h1 className="font-bold tracking-wide text-sm">
                 Fresh Breakfast
               </h1>
-              <p className="text-neutral-300 font-light text-sm">
-                Lorem ipsum dolor sit amet.
-              </p>
+              <p className=" font-light text-sm">Lorem ipsum dolor sit amet.</p>
               <h4 className="text-primary font-bold text-sm">Rp.12.500,00</h4>
             </div>
           </div>
@@ -311,11 +307,9 @@ export default function Home() {
               alt="food"
               className="bg-contain w-20 h-20 rounded-md"
             />
-            <div className="text-white">
+            <div className="">
               <h1 className="font-bold tracking-wide text-sm">Mild Butter</h1>
-              <p className="text-neutral-300 font-light text-sm">
-                Lorem ipsum dolor sit amet.
-              </p>
+              <p className=" font-light text-sm">Lorem ipsum dolor sit amet.</p>
               <h4 className="text-primary font-bold text-sm">Rp.12.500,00</h4>
             </div>
           </div>
@@ -325,11 +319,9 @@ export default function Home() {
               alt="food"
               className="bg-contain w-20 h-20 rounded-md"
             />
-            <div className="text-white">
+            <div className="">
               <h1 className="font-bold tracking-wide text-sm">Fresh Bread</h1>
-              <p className="text-neutral-300 font-light text-sm">
-                Lorem ipsum dolor sit amet.
-              </p>
+              <p className=" font-light text-sm">Lorem ipsum dolor sit amet.</p>
               <h4 className="text-primary font-bold text-sm">Rp.12.500,00</h4>
             </div>
           </div>
@@ -342,7 +334,7 @@ export default function Home() {
         <h1 className="text-center text-primary font-greatvibes text-xl md:text-3xl w-full">
           Staff
         </h1>
-        <h1 className="text-center text-white font-bold text-2xl md:text-6xl py-5 w-full">
+        <h1 className="text-center  font-bold text-2xl md:text-6xl py-5 w-full">
           <span className="text-primary">Me</span>et Our Staff
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mt-10 text-center">
@@ -352,7 +344,7 @@ export default function Home() {
           <Image src={staff4} alt={"staff4"} />
         </div>
 
-        <button className="text-white bg-transparent border border-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
+        <button className=" bg-transparent border border-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
           See More
         </button>
       </section>
@@ -364,11 +356,11 @@ export default function Home() {
           <h1 className="font-greatvibes text-primary text-xl md:text-3xl">
             Testimonials
           </h1>
-          <h1 className="text-slate-100 font-bold text-2xl md:text-6xl py-5">
+          <h1 className=" font-bold text-2xl md:text-6xl py-5">
             <span className="text-primary">Wh</span>at our client are saying
           </h1>
         </section>
-        <div className="w-full flex flex-wrap gap-4 items-center text-center justify-center mt-10 bg-white p-5 rounded-lg">
+        <div className="w-full flex flex-wrap gap-4 items-center text-center justify-center mt-10 bg-black p-5 rounded-lg">
           <Image
             src={imgComment}
             alt="user avatar"
@@ -376,7 +368,7 @@ export default function Home() {
             width={100}
           />
           <FaQuoteRight className="text-primary w-full" />
-          <p className="text-sm">
+          <p className="text-sm text-white">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Dignissimos officia distinctio veritatis laborum at, modi deserunt
             saepe obcaecati nesciunt aliquam?
@@ -388,7 +380,7 @@ export default function Home() {
             <RiStarFill className="text-primary" />
             <RiStarFill className="text-slate-400" />
           </div>
-          <div className="comment w-full">
+          <div className="comment w-full text-white">
             <h3 className="font-bold text-lg">John Doe</h3>
             <p className="font-thin text-xs">Food Specialist</p>
           </div>
@@ -399,24 +391,24 @@ export default function Home() {
       {/* restaurant active process */}
       <section className="bg-home-process w-full h-[500] bg-fixed bg-center flex items-center justify-center relative px-10 py-10">
         <div className="absolute inset-0 bg-black opacity-0"></div>
-        <div className="w-full flex flex-wrap relative z-10 text-end gap-5 justify-end">
+        <div className="w-full flex flex-wrap relative z-10 text-end gap-5 justify-end text-white">
           <h1 className="font-greatvibes text-primary text-xl md:text-3xl">
             Restaurant Active Process
           </h1>
-          <h1 className="text-white font-bold text-2xl md:text-6xl py-2 text-end">
+          <h1 className=" font-bold text-2xl md:text-6xl py-2 text-end ">
             <span className="text-primary">We </span>Document Every Food Bean
             Process untile it is saved.
           </h1>
-          <p className="text-white text-sm pb-2">
+          <p className=" text-sm pb-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
             corporis nesciunt repudiandae mollitia nihil voluptatum
             reprehenderit. Nisi ea quam at.
           </p>
           <div className="button flex gap-3">
-            <button className="text-white bg-transparent border border-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
+            <button className=" bg-transparent border border-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
               Read More
             </button>
-            <button className="text-white bg-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
+            <button className=" bg-primary py-3 px-6 rounded-full mt-10 text-xs md:text-base">
               Play Video
             </button>
           </div>
@@ -429,11 +421,11 @@ export default function Home() {
         <h1 className="text-center text-primary font-greatvibes text-xl md:text-3xl">
           Blog
         </h1>
-        <h1 className="text-center text-white font-bold text-2xl md:text-6xl mt-2">
+        <h1 className="text-center  font-bold text-2xl md:text-6xl mt-2">
           <span className="text-primary">La</span>test News & Blog
         </h1>
         <div className="w-full flex flex-wrap gap-5 mt-10 justify-center">
-          <div className="box border border-white rounded-md">
+          <div className="box border bg-black border-white rounded-md">
             <Image src={item1} alt="item1" className="w-full h-60" />
             <div className="desc p-5">
               <span className="text-primary text-sm">02 November 2023</span>
@@ -443,14 +435,14 @@ export default function Home() {
               <div className="subdesc flex justify-between items-center">
                 <span className="text-xs text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
-                  <RiThumbUpLine className="text-white" />
+                  <RiThumbUpLine className="" />
                   <RiMessage2Line className="text-primary" />
-                  <RiShareLine className="text-white" />
+                  <RiShareLine className="" />
                 </div>
               </div>
             </div>
           </div>
-          <div className="box border border-white rounded-md">
+          <div className="box border bg-black border-white rounded-md">
             <Image src={item2} alt="item2" className="w-full h-60" />
             <div className="desc p-5">
               <span className="text-primary text-sm">02 November 2023</span>
@@ -460,14 +452,14 @@ export default function Home() {
               <div className="subdesc flex justify-between items-center">
                 <span className="text-xs text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
-                  <RiThumbUpLine className="text-white" />
+                  <RiThumbUpLine className="" />
                   <RiMessage2Line className="text-primary" />
-                  <RiShareLine className="text-white" />
+                  <RiShareLine className="" />
                 </div>
               </div>
             </div>
           </div>
-          <div className="box border border-white rounded-md">
+          <div className="box border bg-black border-white rounded-md">
             <Image src={item3} alt="item3" className="w-full h-60" />
             <div className="desc p-5">
               <span className="text-primary text-sm">02 November 2023</span>
@@ -477,9 +469,9 @@ export default function Home() {
               <div className="subdesc flex justify-between items-center">
                 <span className="text-xs text-slate-300">Learn More</span>
                 <div className="icon flex gap-2">
-                  <RiThumbUpLine className="text-white" />
+                  <RiThumbUpLine className="" />
                   <RiMessage2Line className="text-primary" />
-                  <RiShareLine className="text-white" />
+                  <RiShareLine className="" />
                 </div>
               </div>
             </div>
@@ -491,10 +483,10 @@ export default function Home() {
       {/* footer */}
       <section className="p-10">
         <div className="subscribe">
-          <h4 className="text-white text-2xl">
+          <h4 className="text-2xl">
             <span className="text-primary">St</span>ill You Need Our Support ?
           </h4>
-          <p className="text-sm text-white font-normal mt-5">
+          <p className="text-sm font-normal mt-5">
             Don&apos;t wait make a smart & logical quote here. Its pretty easy.
           </p>
           <div className="sub flex mt-10 w-full">
@@ -505,36 +497,36 @@ export default function Home() {
               className="bg-primary text-white px-4 py-2 text-base placeholder:text-white placeholder:font-medium placeholder:text-sm w-3/4 rounded-tl rounded-bl"
               placeholder="Enter Your Email"
             />
-            <button className="bg-white text-primary font-semibold text-sm px-2 w-auto rounded-tr rounded-br">
+            <button className="bg-black text-white font-semibold text-sm px-2 w-auto rounded-tr rounded-br">
               Subscribe
             </button>
           </div>
-          <div className="footer-bottom">
+          {/* <div className="footer-bottom mt-10">
             <div className="about">
               <h5 className="textlg">About us</h5>
             </div>
-          </div>
+          </div> */}
         </div>
         <hr className="border-primary my-10" />
         <div className="about-us">
-          <h5 className="text-white text-lg">About Us.</h5>
-          <p className="text-white my-4 text-sm">
+          <h5 className=" text-lg">About Us.</h5>
+          <p className=" my-4 text-sm">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             libero quia fugiat aut assumenda et accusamus doloribus eveniet
             temporibus eaque.
           </p>
           <div className="flex gap-4 items-center">
             <div className="bg-primary p-3 rounded-sm">
-              <RiHistoryLine className="text-white w-8 h-8" />
+              <RiHistoryLine className=" w-8 h-8" />
             </div>
-            <div className="text-white flex flex-wrap gap-2">
+            <div className=" flex flex-wrap gap-2">
               <h4 className="text-lg">Opening Houres</h4>
               <h6 className="text-sm">Mon - Sat(8.00-22.00)</h6>
             </div>
           </div>
         </div>
         <div className="w-full flex flex-wrap">
-          <div className="useful-links text-white mt-10 w-1/2">
+          <div className="useful-links  mt-10 w-1/2">
             <h5 className="text-lg">Useful Links</h5>
             <h4 className="mt-4 text-sm">About</h4>
             <h4 className="mt-4 text-sm">News</h4>
@@ -543,7 +535,7 @@ export default function Home() {
             <h4 className="mt-4 text-sm">Menu</h4>
             <h4 className="mt-4 text-sm">Contacts</h4>
           </div>
-          <div className="help text-white mt-10 w-1/2">
+          <div className="help  mt-10 w-1/2">
             <h5 className="text-lg">Help?</h5>
             <h4 className="mt-4 text-sm">FAQ</h4>
             <h4 className="mt-4 text-sm">Terms & conditions</h4>
@@ -552,7 +544,7 @@ export default function Home() {
             <h4 className="mt-4 text-sm">Support Policy</h4>
             <h4 className="mt-4 text-sm">Privacy</h4>
           </div>
-          <div className="recent-post text-white mt-10 w-full">
+          <div className="recent-post  mt-10 w-full">
             <h5 className="text-lg">Recent Post</h5>
             <div className="post mt-4 flex items-center gap-4">
               <Image src={item1} alt="recent post" className="w-16 h-12" />
@@ -584,8 +576,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-primary flex w-full justify-center bottom-0 py-4">
-        <div className="text-white text-sm">
+      <section className="text-white bg-primary flex w-full justify-center bottom-0 py-4">
+        <div className=" text-sm">
           Copyright &copy; 2024 by Itsmhyne. All Rights Reserved.
         </div>
         <div className="icons"></div>

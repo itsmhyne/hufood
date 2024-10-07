@@ -24,7 +24,8 @@ const NavbarV2 = () => {
   let navbarClasses =
     "fixed w-full top-0 left-0 transition-all duration-300 ease-in-out";
   if (scrolled) {
-    navbarClasses += " backdrop-blur-sm"; // Style when scrolled
+    // navbarClasses += " backdrop-blur-sm"; // Style when scrolled
+    navbarClasses += " bg-black"; // Style when scrolled
   } else {
     navbarClasses += " bg-transparent"; // Style when at the top
   }
